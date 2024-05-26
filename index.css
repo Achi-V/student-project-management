@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background: #112e2e;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    background-color: #005f73;
+    color: rgb(243, 243, 243);
+    width: 100%;
+    padding: 1rem 0;
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.header-buttons {
+    margin-top: 1rem;
+}
+
+.header-buttons a {
+    color: #005f73;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header-buttons a:hover {
+    background-color: #00cccc;
+    color: #ffffff;
+}
+
+.container-fluid {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+.sidebar {
+    background: #0a9396;
+    color: rgb(175, 46, 46);
+    min-height: none;
+    padding: 20px;
+    width: 200px;
+}
+
+.sidebar .nav-link {
+    color: #f7f6f3;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #94d2bd;
+    color: #1a1a1a;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    background: #112e2e;
+    color: white;
+}
+
+.card {
+    background: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 60px rgb(57, 165, 142);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.card-body {
+    color: white;
+}
+
+.btn-primary {
+    background-color: #00ffff;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #00ffff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #00cccc;
+    box-shadow: 0 0 20px #00cccc;
+}
+
+a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hello{
+    background-color: #112e2e;
+}
+
+/* Add this new rule */
+.modal-body input {
+    color: rgb(190, 34, 34);
+}
